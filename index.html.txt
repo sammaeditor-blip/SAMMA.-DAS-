@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samma Das | Electrical Engineering Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-blue-600 tracking-wide">SAMMA DAS</a>
+            <div class="space-x-6 hidden md:flex">
+                <a href="#home" class="hover:text-blue-600 transition font-medium">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition font-medium">About Me</a>
+                <a href="#education" class="hover:text-blue-600 transition font-medium">Education & Skills</a>
+                <a href="#projects" class="hover:text-blue-600 transition font-medium">Projects</a>
+                <a href="#contact" class="hover:text-blue-600 transition font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <div class="w-32 h-32 bg-blue-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 text-4xl font-bold shadow-lg">
+                SD
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4">Hi, I'm Samma Das</h1>
+            <p class="text-xl md:text-2xl text-blue-700 font-medium mb-6">Electrical Engineering Student</p>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-8 text-lg">
+                Welcome to my personal portfolio. I study at Chattogram Polytechnic Institute and am passionate about power systems, circuit automation, and electrical design.
+            </p>
+            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-full shadow-md transition duration-300 inline-block">
+                Let's Connect
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">About Me</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mb-10"></div>
+            <p class="text-lg text-gray-600 leading-relaxed text-center max-w-3xl mx-auto">
+                Hello! I am a dedicated student currently pursuing my Diploma in Engineering in the 
+                <strong>Department of Electrical at Chattogram Polytechnic Institute</strong>. 
+                I have a deep fascination with how electrical infrastructure shapes our daily lives. 
+                From drafting precise electrical layouts to decoding complex circuitry, I love the logic and precision that engineering demands. I'm always eager to learn new industry technologies and work on impactful engineering projects.
+            </p>
+        </div>
+    </section>
+
+    <section id="education" class="py-20 bg-gray-100">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">Education & Technical Skills</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mb-12"></div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+                        <i class="fas fa-graduation-cap text-blue-600 mr-3"></i> Education
+                    </h3>
+                    <div class="border-left-2 border-blue-600 pl-4">
+                        <h4 class="text-xl font-bold text-gray-900">Diploma in Electrical Engineering</h4>
+                        <p class="text-blue-600 font-medium mt-1">Chattogram Polytechnic Institute (CPI)</p>
+                        <p class="text-gray-500 text-sm mt-2">Focusing on Power Systems, Electrical Machines, Circuit Design, and Electronics.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+                        <i class="fas fa-tools text-blue-600 mr-3"></i> Technical Skills
+                    </h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium text-gray-700">Electrical Blueprint & Drawing</span>
+                            </div>
+                            <div class="w-full bg-gray-200 h-2 rounded-full"><div class="bg-blue-600 h-2 rounded-full" style="width: 85%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium text-gray-700">Circuit Design & Analysis</span>
+                            </div>
+                            <div class="w-full bg-gray-200 h-2 rounded-full"><div class="bg-blue-600 h-2 rounded-full" style="width: 80%"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium text-gray-700">House Wiring & Industrial Wiring Layouts</span>
+                            </div>
+                            <div class="w-full bg-gray-200 h-2 rounded-full"><div class="bg-blue-600 h-2 rounded-full" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">Academic Projects</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mb-12"></div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="p-6">
+                        <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-bolt"></i></div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Electrical Layout Design</h3>
+                        <p class="text-gray-600 text-sm">Detailed schematic layouts and drawing configurations developed during lab practical sessions.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="p-6">
+                        <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-microchip"></i></div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Automatic Control Circuit</h3>
+                        <p class="text-gray-600 text-sm">A laboratory demonstration system designed to regulate specific component mechanisms safely.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-xl overflow-hidden border border-gray-200 shadow-sm hover:shadow-md transition">
+                    <div class="p-6">
+                        <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-lightbulb"></i></div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Smart Home Automation</h3>
+                        <p class="text-gray-600 text-sm">Conceptual engineering blueprint modeling efficient energy usage across dynamic circuits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
+            <div class="w-16 h-1 bg-blue-500 mx-auto mb-10"></div>
+            <p class="text-gray-400 mb-8 max-w-lg mx-auto">
+                Whether you want to discuss engineering concepts, look at drawings, or collaborate on a project, my inbox is always open!
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6 text-lg mb-12">
+                <a href="mailto:your-email@example.com" class="hover:text-blue-400 transition flex items-center">
+                    <i class="fas fa-envelope mr-3 text-blue-500"></i> your-email@example.com
+                </a>
+                <span class="hidden sm:inline text-gray-600">|</span>
+                <span class="flex items-center text-gray-300">
+                    <i class="fas fa-map-marker-alt mr-3 text-blue-500"></i> Chattogram, Bangladesh
+                </span>
+            </div>
+
+            <div class="flex justify-center space-x-6">
+                <a href="#" target="_blank" class="text-3xl hover:text-blue-400 transition"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" class="text-3xl hover:text-blue-400 transition"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" class="text-3xl hover:text-blue-400 transition"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-950 py-6 text-center text-gray-500 text-sm border-t border-gray-800">
+        <p>&copy; 2026 Samma Das. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
